@@ -1,5 +1,5 @@
 class ListSerializer < ActiveModel::Serializer
-attributes :id, :created_at, :full_name, :email
+attributes :id, :created_at, :full_name
 
   # Delegate the practical definition of `full_name` to
   # the User model, where it belongs, rather than
